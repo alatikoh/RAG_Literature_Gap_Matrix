@@ -1,0 +1,451 @@
+{
+  "P01": {
+    "fields": {
+      "Problem": {
+        "answer": "Kebutuhan untuk menerapkan deteksi liveness pada sistem absensi berbasis pengenalan wajah guna mencegah serangan spoofing.",
+        "chunk_ids": [
+          "P01_pg004_ch007"
+        ]
+      },
+      "Metode": {
+        "answer": "Pengembangan model CNN berbasis pre-trained MobileFaceNet dan model lain, dilatih dengan dataset CelebA-Spoof dan NUAA Imposter serta evaluasi menggunakan metrik EER, HTER, dan F1.",
+        "chunk_ids": [
+          "P01_pg004_ch006",
+          "P01_pg005_ch006",
+          "P01_pg005_ch007"
+        ]
+      },
+      "Dataset": {
+        "answer": "CelebA-Spoof dan NUAA Imposter, dengan pengolahan gambar termasuk cropping dan alignment.",
+        "chunk_ids": [
+          "P01_pg004_ch009"
+        ]
+      },
+      "Temuan": {
+        "answer": "Metode yang diusulkan memperoleh HTER 0,13 % (lebih rendah dari 0,98 % metode sebelumnya) dan akurasi 87 % pada CelebA-Spoof; pada dataset NUAA akurasi lebih rendah namun HTER lebih baik.",
+        "chunk_ids": [
+          "P01_pg009_ch010",
+          "P01_pg009_ch011"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Keterbatasan data pelatihan dan perbedaan jumlah gambar uji dapat mempengaruhi validitas perbandingan, serta akurasi lebih rendah pada dataset NUAA.",
+        "chunk_ids": [
+          "P01_pg009_ch013"
+        ]
+      },
+      "Future Work": {
+        "answer": "Tidak dilaporkan secara eksplisit",
+        "chunk_ids": []
+      }
+    },
+    "context_chunk_ids": [
+      "P01_pg013_ch010",
+      "P01_pg004_ch007",
+      "P01_pg009_ch010",
+      "P01_pg004_ch006",
+      "P01_pg005_ch006",
+      "P01_pg005_ch007",
+      "P01_pg009_ch011",
+      "P01_pg004_ch009",
+      "P01_pg005_ch014",
+      "P01_pg005_ch016",
+      "P01_pg004_ch003",
+      "P01_pg009_ch013",
+      "P01_pg011_ch004",
+      "P01_pg002_ch014"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P02": {
+    "fields": {
+      "Problem": {
+        "answer": "Terdapat kebutuhan sistem absensi otomatis yang dapat meminimalisir penipuan dan beban administratif dalam organisasi.",
+        "chunk_ids": [
+          "P02_pg002_ch006"
+        ]
+      },
+      "Metode": {
+        "answer": "Penggunaan computer vision dan facial recognition dengan algoritma Local Binary Patterns Histograms (LBPH) untuk deteksi dan identifikasi wajah.",
+        "chunk_ids": [
+          "P02_pg013_ch002",
+          "P02_pg006_ch016"
+        ]
+      },
+      "Dataset": {
+        "answer": "Dataset terdiri dari 30 atau 500 gambar per anggota, menghasilkan sekitar 6.000 fitur wajah setelah proses ekstraksi.",
+        "chunk_ids": [
+          "P02_pg013_ch007",
+          "P02_pg013_ch010"
+        ]
+      },
+      "Temuan": {
+        "answer": "Model menunjukkan akurasi tinggi dan efisiensi komputasi yang lebih baik dibandingkan metode sebelumnya, mengurangi fitur dari 160.000+ menjadi sekitar 6000.",
+        "chunk_ids": [
+          "P02_pg006_ch016"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Tidak dilaporkan secara eksplisit",
+        "chunk_ids": []
+      },
+      "Future Work": {
+        "answer": "Tidak dilaporkan secara eksplisit",
+        "chunk_ids": []
+      }
+    },
+    "context_chunk_ids": [
+      "P02_pg005_ch017",
+      "P02_pg001_ch012",
+      "P02_pg003_ch002",
+      "P02_pg004_ch014",
+      "P02_pg005_ch015",
+      "P02_pg005_ch006",
+      "P02_pg013_ch007",
+      "P02_pg013_ch010",
+      "P02_pg013_ch002",
+      "P02_pg006_ch016",
+      "P02_pg004_ch020",
+      "P02_pg002_ch006"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P03": {
+    "fields": {
+      "Problem": {
+        "answer": "Meningkatkan kemampuan sistem identifikasi wajah pada Raspberry Pi agar dapat beroperasi secara real‑time di kondisi nyata seperti variasi pencahayaan dan sudut wajah.",
+        "chunk_ids": [
+          "P03_pg003_ch005",
+          "P03_pg003_ch010"
+        ]
+      },
+      "Metode": {
+        "answer": "Implementasi klasifikasi Haar cascade dan algoritma AdaBoost menggunakan OpenCV pada Raspberry Pi microcomputer, lengkap dengan antarmuka pengguna grafis.",
+        "chunk_ids": [
+          "P03_pg003_ch011",
+          "P03_pg013_ch009"
+        ]
+      },
+      "Dataset": {
+        "answer": "12 partisipan (8 pria dan 4 wanita) berusia 16–51 tahun; semua pengguna dimasukkan ke dalam basis data wajah.",
+        "chunk_ids": [
+          "P03_pg017_ch003"
+        ]
+      },
+      "Temuan": {
+        "answer": "Penentuan ambang batas yang optimal menghasilkan keseimbangan antara akurasi dan efisiensi, serta sistem menunjukkan kinerja yang cukup baik di bawah kondisi yang diuji.",
+        "chunk_ids": [
+          "P03_pg017_ch004"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Jumlah partisipan terbatas, serta masih terdapat tantangan pada kondisi pencahayaan buruk dan occlusion yang memerlukan penelitian lanjutan.",
+        "chunk_ids": [
+          "P03_pg003_ch010"
+        ]
+      },
+      "Future Work": {
+        "answer": "Menggunakan kamera resolusi lebih tinggi, memperluas basis data pengguna, serta mengintegrasikan pemindaian termal untuk meningkatkan ketahanan sistem.",
+        "chunk_ids": [
+          "P03_pg003_ch013"
+        ]
+      }
+    },
+    "context_chunk_ids": [
+      "P03_pg024_ch012",
+      "P03_pg024_ch010",
+      "P03_pg017_ch003",
+      "P03_pg003_ch005",
+      "P03_pg003_ch011",
+      "P03_pg024_ch009",
+      "P03_pg017_ch004",
+      "P03_pg013_ch009",
+      "P03_pg003_ch010",
+      "P03_pg003_ch013"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P04": {
+    "fields": {
+      "Problem": {
+        "answer": "Meningkatkan ketepatan sistem kehadiran otomatis dengan memblokir pelajar yang mencoba melewatkan kelas dan mengatasi masalah pengganti kehadiran.",
+        "chunk_ids": [
+          "P04_pg001_ch006"
+        ]
+      },
+      "Metode": {
+        "answer": "Sistem menggunakan Raspberry Pi 3B dengan kamera, Django untuk pemrosesan latar belakang, OpenCV dan Dlib untuk deteksi serta pengenalan wajah, serta serialisasi data untuk menyimpan gambar rekaman ke SQLite.",
+        "chunk_ids": [
+          "P04_pg003_ch007",
+          "P04_pg004_ch002",
+          "P04_pg013_ch002"
+        ]
+      },
+      "Dataset": {
+        "answer": "Tidak dilaporkan secara eksplisit",
+        "chunk_ids": []
+      },
+      "Temuan": {
+        "answer": "Peningkatan performa pengenalan wajah dicapai melalui toleransi adaptif berbasis Euclidean distance, seperti yang ditunjukkan pada Figure 8.",
+        "chunk_ids": [
+          "P04_pg013_ch002"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Studi bersifat pilot karena diuji di laboratorium, bukan di kelas nyata.",
+        "chunk_ids": [
+          "P04_pg013_ch001"
+        ]
+      },
+      "Future Work": {
+        "answer": "Tidak dilaporkan secara eksplisit",
+        "chunk_ids": []
+      }
+    },
+    "context_chunk_ids": [
+      "P04_pg013_ch011",
+      "P04_pg001_ch006",
+      "P04_pg013_ch012",
+      "P04_pg003_ch007",
+      "P04_pg013_ch001",
+      "P04_pg004_ch002",
+      "P04_pg013_ch002",
+      "P04_pg013_ch006",
+      "P04_pg001_ch012",
+      "P04_pg003_ch006"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P05": {
+    "fields": {
+      "Problem": {
+        "answer": "Kebutuhan sistem pelacakan kehadiran wajah yang ringan, dapat dioperasikan di perangkat edge, dan dapat dijelaskan bagi pengguna non-teknis dalam lingkungan pendidikan dengan keterbatasan sumber daya.",
+        "chunk_ids": [
+          "P05_pg004_ch004"
+        ]
+      },
+      "Metode": {
+        "answer": "Penerapan model LaED berbasis Tiny‑ViT untuk ekstraksi fitur, analisis liveness dan deepfake secara paralel, serta fusi keputusan akhir; dilengkapi mekanisme audit keadilan dan penjelasan berbasis model.",
+        "chunk_ids": [
+          "P05_pg007_ch011",
+          "P05_pg007_ch012",
+          "P05_pg007_ch013"
+        ]
+      },
+      "Dataset": {
+        "answer": "Kombinasi dataset benchmark publik (CASIA‑FASD, DFDC, FairFace, LFW) dan dataset kelas custom 10.000 gambar sintetis StyleGAN3 serta dataset kelas in‑house konsensual; digunakan untuk evaluasi real‑world.",
+        "chunk_ids": [
+          "P05_pg009_ch001",
+          "P05_pg029_ch002"
+        ]
+      },
+      "Temuan": {
+        "answer": "Mencapai akurasi tinggi dengan robust terhadap spoofing dan deepfake, meningkatkan keadilan antar kelompok demografis, dan memberikan penjelasan yang dipahami oleh pengguna (rating 4,2/5).",
+        "chunk_ids": [
+          "P05_pg017_ch004",
+          "P05_pg023_ch007"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Skala evaluasi terbatas, eksperimen adversarial masih awal, tidak mencakup beberapa serangan fisik dan semantik; data in‑house masih kecil.",
+        "chunk_ids": [
+          "P05_pg017_ch004",
+          "P05_pg015_ch013"
+        ]
+      },
+      "Future Work": {
+        "answer": "Evaluasi longitudinal besar di beberapa institusi, penambahan serangan adversarial fisik dan semantik, serta pengembangan proses audit keadilan yang lebih komprehensif.",
+        "chunk_ids": [
+          "P05_pg017_ch004",
+          "P05_pg015_ch013"
+        ]
+      }
+    },
+    "context_chunk_ids": [
+      "P05_pg017_ch004",
+      "P05_pg025_ch020",
+      "P05_pg019_ch009",
+      "P05_pg007_ch011",
+      "P05_pg025_ch005",
+      "P05_pg007_ch012",
+      "P05_pg009_ch001",
+      "P05_pg029_ch002",
+      "P05_pg007_ch013",
+      "P05_pg010_ch001",
+      "P05_pg023_ch007",
+      "P05_pg015_ch013",
+      "P05_pg004_ch004",
+      "P05_pg028_ch024"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P06": {
+    "fields": {
+      "Problem": {
+        "answer": "Mengintegrasikan sistem pengenalan wajah dengan masker dan pengukuran suhu tubuh secara real‑time di lingkungan publik.",
+        "chunk_ids": [
+          "P06_pg001_ch005",
+          "P06_pg007_ch003"
+        ]
+      },
+      "Metode": {
+        "answer": "Penerapan CNN dengan model ringan untuk deteksi dan pengenalan wajah mask, serta penggunaan kamera termal untuk pengukuran suhu.",
+        "chunk_ids": [
+          "P06_pg001_ch005",
+          "P06_pg006_ch004"
+        ]
+      },
+      "Dataset": {
+        "answer": "Dataset pelatihan: CASIA‑WebFace yang disimulasikan dengan masker; dataset validasi: LFW dan MFR2; dataset real‑world: 17 orang dengan dua gambar (mask dan tidak mask).",
+        "chunk_ids": [
+          "P06_pg011_ch003",
+          "P06_pg007_ch003",
+          "P06_pg012_ch007"
+        ]
+      },
+      "Temuan": {
+        "answer": "Akurasi pengenalan wajah mask mencapai 94,1 % dan tanpa mask 91,8 %; model mencapai 98 % pada LFW; sistem beroperasi secara real‑time.",
+        "chunk_ids": [
+          "P06_pg012_ch008",
+          "P06_pg012_ch007"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Tidak dilaporkan secara eksplisit.",
+        "chunk_ids": []
+      },
+      "Future Work": {
+        "answer": "Tidak dilaporkan secara eksplisit.",
+        "chunk_ids": []
+      }
+    },
+    "context_chunk_ids": [
+      "P06_pg013_ch011",
+      "P06_pg001_ch012",
+      "P06_pg013_ch010",
+      "P06_pg011_ch003",
+      "P06_pg006_ch004",
+      "P06_pg010_ch007",
+      "P06_pg007_ch003",
+      "P06_pg001_ch005",
+      "P06_pg012_ch007",
+      "P06_pg007_ch009",
+      "P06_pg009_ch003",
+      "P06_pg012_ch008",
+      "P06_pg015_ch013",
+      "P06_pg003_ch001"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P07": {
+    "fields": {
+      "Problem": {
+        "answer": "Mengidentifikasi faktor penerimaan pengguna terhadap teknologi pengenalan biometrik (terutama wajah) untuk sistem absensi ujian di perguruan tinggi.",
+        "chunk_ids": [
+          "P07_pg006_ch002"
+        ]
+      },
+      "Metode": {
+        "answer": "Survei kuantitatif dengan kuesioner yang divalidasi; Analisis Faktor Eksploratori (EFA) dan evaluasi reliabilitas dan validitas menggunakan SPSS.",
+        "chunk_ids": [
+          "P07_pg006_ch002",
+          "P07_pg006_ch003"
+        ]
+      },
+      "Dataset": {
+        "answer": "Data survei dari 161 mahasiswa yang memeriksa persepsi mereka terhadap sistem absensi berbasis wajah.",
+        "chunk_ids": [
+          "P07_pg007_ch009"
+        ]
+      },
+      "Temuan": {
+        "answer": "Model penerimaan berbasis TAM menunjukkan bahwa persepsi kemudahan penggunaan dan utilitas meningkatkan niat penggunaan, namun ada kekhawatiran etis terkait privasi dan bias.",
+        "chunk_ids": [
+          "P07_pg014_ch012"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Tidak dilaporkan secara eksplisit dalam konteks yang disediakan.",
+        "chunk_ids": []
+      },
+      "Future Work": {
+        "answer": "Tidak dilaporkan secara eksplisit dalam konteks yang disediakan.",
+        "chunk_ids": []
+      }
+    },
+    "context_chunk_ids": [
+      "P07_pg013_ch011",
+      "P07_pg015_ch005",
+      "P07_pg015_ch004",
+      "P07_pg015_ch013",
+      "P07_pg007_ch009",
+      "P07_pg006_ch002",
+      "P07_pg006_ch003",
+      "P07_pg014_ch012",
+      "P07_pg009_ch005",
+      "P07_pg015_ch006"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  },
+  "P08": {
+    "fields": {
+      "Problem": {
+        "answer": "Meningkatkan akurasi absensi mahasiswa hingga hampir 100% karena absensi mempengaruhi penilaian langsung.",
+        "chunk_ids": [
+          "P08_pg003_ch005"
+        ]
+      },
+      "Metode": {
+        "answer": "Penggunaan sistem pengenalan wajah mendalam (deep face recognition) dengan sampling data, pemrosesan batch, ROI, dan algoritma summarization.",
+        "chunk_ids": [
+          "P08_pg007_ch003",
+          "P08_pg010_ch006"
+        ]
+      },
+      "Dataset": {
+        "answer": "Dataset pelatihan berisi 120 mahasiswa, masing‑masing 9 gambar wajah, dan data uji berjumlah 7490 gambar.",
+        "chunk_ids": [
+          "P08_pg010_ch006"
+        ]
+      },
+      "Temuan": {
+        "answer": "Sistem bekerja dengan baik pada 120 mahasiswa di lima kelas, menunjukkan kelayakan aplikasi di lingkungan universitas.",
+        "chunk_ids": [
+          "P08_pg017_ch002"
+        ]
+      },
+      "Keterbatasan": {
+        "answer": "Tidak dapat mencapai akurasi terbaik yang dimiliki oleh sistem FR terkini dalam kondisi nyata.",
+        "chunk_ids": [
+          "P08_pg017_ch002"
+        ]
+      },
+      "Future Work": {
+        "answer": "Pengembangan sistem berbasis 3D FR dan peningkatan performa.",
+        "chunk_ids": [
+          "P08_pg018_ch004"
+        ]
+      }
+    },
+    "context_chunk_ids": [
+      "P08_pg004_ch002",
+      "P08_pg018_ch004",
+      "P08_pg017_ch002",
+      "P08_pg018_ch005",
+      "P08_pg004_ch010",
+      "P08_pg007_ch003",
+      "P08_pg010_ch006",
+      "P08_pg003_ch005",
+      "P08_pg018_ch006"
+    ],
+    "model": "openai/gpt-oss-20b",
+    "embedding_source_sha256": "7df3a41f9d2479aed2366405bfec497442b689daedcf201688613409ea8feef0"
+  }
+}

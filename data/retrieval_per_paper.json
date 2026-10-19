@@ -1,0 +1,1810 @@
+{
+  "P01": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg009_ch010",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "proposed method had an HTER of 0.13 % which is lower than the HTER of Nonlinear diffusion + CNN method by Alotaibi and Mahmood [1], which is 0.98 %. The comparison made between the proposed method and methods from previous studies on CelebA-Spoof and NUAA datasets shows that on CelebA-Spoof dataset, the proposed method has",
+          "score": 0.4780620336532593
+        },
+        {
+          "chunk_id": "P01_pg009_ch011",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "datasets shows that on CelebA-Spoof dataset, the proposed method has a higher accuracy, and on NUAA dataset, even though the proposed method’s accuracy is lower, it has a better HTER score. On CelebA-Spoof dataset, the number of images used for testing is the same as on the previous study by Mohamed et al. [16], which",
+          "score": 0.46476444602012634
+        },
+        {
+          "chunk_id": "P01_pg013_ch010",
+          "paper_id": "P01",
+          "page_number": 13,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "Data curation, Formal analysis, Investigation, Project administration, Validation, Writing – review & editing. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Data availability Data will be made available on request. References [1] A.",
+          "score": 0.45878100395202637
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg005_ch006",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "is used because it has an advantage where it requires fewer data and resources compared to training a new model from scratch. Several pre- trained models were used to carry out the experiment in this paper, including models trained for object recognition and face recog­ nition. When selecting the pre-trained model, the model’s speed and",
+          "score": 0.5456303954124451
+        },
+        {
+          "chunk_id": "P01_pg004_ch006",
+          "paper_id": "P01",
+          "page_number": 4,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "and MobileFaceNet could be used as the two methods are proven to be ac­ curate and can be run on a portable device. 3. Theory and methods The implementation of this research is divided into three main stages: the planning stage, the model development stage, and the evaluation stage, as shown by Fig. 1. In",
+          "score": 0.49803847074508667
+        },
+        {
+          "chunk_id": "P01_pg009_ch010",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "proposed method had an HTER of 0.13 % which is lower than the HTER of Nonlinear diffusion + CNN method by Alotaibi and Mahmood [1], which is 0.98 %. The comparison made between the proposed method and methods from previous studies on CelebA-Spoof and NUAA datasets shows that on CelebA-Spoof dataset, the proposed method has",
+          "score": 0.49204370379447937
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg009_ch011",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "datasets shows that on CelebA-Spoof dataset, the proposed method has a higher accuracy, and on NUAA dataset, even though the proposed method’s accuracy is lower, it has a better HTER score. On CelebA-Spoof dataset, the number of images used for testing is the same as on the previous study by Mohamed et al. [16], which",
+          "score": 0.5191959738731384
+        },
+        {
+          "chunk_id": "P01_pg005_ch002",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "NUAA imposter datasets. CelebA-Spoof dataset was chosen because it is publicly available and it is the largest dataset available in this field according to Mohamed [16], while NUAA imposter dataset was chosen because it is publicly available and has been used in several previous studies. 4.2. Data processing The obtained datasets must first be processed",
+          "score": 0.5166816711425781
+        },
+        {
+          "chunk_id": "P01_pg005_ch001",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "N. Surantha and B. Sugijakko Internet of Things 25 (2024) 101089 4. Model development stage 4.1. Data collection Two publicly available datasets were obtained to be used as training and evaluation data for the proposed liveness detection CNN model. The obtained datasets are CelebA-Spoof and NUAA imposter datasets. CelebA-Spoof dataset was chosen because it is",
+          "score": 0.5130754113197327
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg005_ch014",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 586,
+          "end_word": 640,
+          "text": "done. To test and evaluate the perfor­ mance of the model, several metrics are used, such as Equal Error Rate (EER), Half Total Error Rate (HTER), and F1 Score. After obtaining the score for each metric mentioned before, the scores will then be compared against scores from previous studies to determine whether the performance of",
+          "score": 0.6400031447410583
+        },
+        {
+          "chunk_id": "P01_pg005_ch016",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 676,
+          "end_word": 730,
+          "text": "be used to assess the result. EER was calculated using formula 3.3, HTER using formula 3.4, and F1 score using formula 3.5. Previous research used these evaluation metrics; therefore, these metrics were chosen to be the evaluation metrics to compare the results. FP FAR = (3.1) FP + TN Table 3 Keras pre-trained models [16].",
+          "score": 0.6299769878387451
+        },
+        {
+          "chunk_id": "P01_pg005_ch015",
+          "paper_id": "P01",
+          "page_number": 5,
+          "start_word": 631,
+          "end_word": 685,
+          "text": "scores from previous studies to determine whether the performance of the proposed model is adequate or not. The final stage determines the performance and success rate of the system that has been created. Error Rate (EER), Half Total Error Rate (HTER), and F1 Score will be used to assess the result. EER was calculated using",
+          "score": 0.5959019660949707
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg009_ch011",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "datasets shows that on CelebA-Spoof dataset, the proposed method has a higher accuracy, and on NUAA dataset, even though the proposed method’s accuracy is lower, it has a better HTER score. On CelebA-Spoof dataset, the number of images used for testing is the same as on the previous study by Mohamed et al. [16], which",
+          "score": 0.5050922632217407
+        },
+        {
+          "chunk_id": "P01_pg009_ch012",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 496,
+          "end_word": 550,
+          "text": "on the previous study by Mohamed et al. [16], which is 200 images equally divided between live and spoof. While, on NUAA dataset, the number of images used for testing is not the same as previous studies by Sengur et al. [11]. and Alotaibi and Mahmood [1], which were 5761 and 9123, respectively. Difference in",
+          "score": 0.49450671672821045
+        },
+        {
+          "chunk_id": "P01_pg004_ch003",
+          "paper_id": "P01",
+          "page_number": 4,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "done in this study, the pro­ posed CNN approach achieved a relatively acceptable accuracy for testing which is 87 %. The summarized details of these related works are presented in Table 2, which provides insights into the methodologies, dataset, and performance metrics of each proposed methods. Based on the literature review on the previously proposed",
+          "score": 0.48966318368911743
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg009_ch013",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 541,
+          "end_word": 595,
+          "text": "Mahmood [1], which were 5761 and 9123, respectively. Difference in the number of images used for testing reduces the validity of the comparison and because there are only a limited number of images available for training, the proposed model’s performance might be affected on the NUAA dataset. The CelebA-Spoof dataset contains images with a broader",
+          "score": 0.5377498865127563
+        },
+        {
+          "chunk_id": "P01_pg009_ch011",
+          "paper_id": "P01",
+          "page_number": 9,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "datasets shows that on CelebA-Spoof dataset, the proposed method has a higher accuracy, and on NUAA dataset, even though the proposed method’s accuracy is lower, it has a better HTER score. On CelebA-Spoof dataset, the number of images used for testing is the same as on the previous study by Mohamed et al. [16], which",
+          "score": 0.4974658191204071
+        },
+        {
+          "chunk_id": "P01_pg004_ch003",
+          "paper_id": "P01",
+          "page_number": 4,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "done in this study, the pro­ posed CNN approach achieved a relatively acceptable accuracy for testing which is 87 %. The summarized details of these related works are presented in Table 2, which provides insights into the methodologies, dataset, and performance metrics of each proposed methods. Based on the literature review on the previously proposed",
+          "score": 0.47418445348739624
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P01_pg013_ch010",
+          "paper_id": "P01",
+          "page_number": 13,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "Data curation, Formal analysis, Investigation, Project administration, Validation, Writing – review & editing. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Data availability Data will be made available on request. References [1] A.",
+          "score": 0.4860279858112335
+        },
+        {
+          "chunk_id": "P01_pg002_ch014",
+          "paper_id": "P01",
+          "page_number": 2,
+          "start_word": 586,
+          "end_word": 640,
+          "text": "2 contains works on portable attendance system and face liveness detection. Section 3 discusses the proposed face liveness detection model and attendance system prototype development, while Section 4 evaluates the performance of the proposed system. Section 5 concludes the paper with conclusions and future work. 2. Related works 2.1. Portable attendance system In 2019, Hasban",
+          "score": 0.3968349099159241
+        },
+        {
+          "chunk_id": "P01_pg004_ch007",
+          "paper_id": "P01",
+          "page_number": 4,
+          "start_word": 271,
+          "end_word": 325,
+          "text": "and the evaluation stage, as shown by Fig. 1. In the first stage, background literature review, problem identification, and research’s goals and scope of work outlining are performed. The main problem of this research is the need of implementing liveness detection in face recognition-based attendance systems to prevent face spoofing attacks. The goal of this",
+          "score": 0.3561808466911316
+        }
+      ]
+    }
+  },
+  "P02": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg005_ch017",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 721,
+          "end_word": 775,
+          "text": "Towards the end of this literature review, it is imperative to provide a importance of aligning research objectives with project stakeholders’ brief justification for the approach proposed in our research. We have expectations, an aspect we meticulously addressed by engaging with key chosen to combine the processes of Detection, Extraction, Labeling, and stakeholders from the",
+          "score": 0.6543371081352234
+        },
+        {
+          "chunk_id": "P02_pg007_ch008",
+          "paper_id": "P02",
+          "page_number": 7,
+          "start_word": 316,
+          "end_word": 370,
+          "text": "system design and methodology the initial few stages will have considerably fewer features). If a window used to model the research study’s objectives, as well as practical con­ fails the first stage, it is immediately discarded, and the remaining fea­ siderations for implementation in real-life scenarios. tures are not applied. However, if it passes, the",
+          "score": 0.5312495231628418
+        },
+        {
+          "chunk_id": "P02_pg004_ch014",
+          "paper_id": "P02",
+          "page_number": 4,
+          "start_word": 586,
+          "end_word": 640,
+          "text": "Science Research balance, achieving high accuracy with minimal resource consumption. Methodology and Paradigmatic Analysis of Information Systems as a This study not only illustrates the advancements in embedded systems Design Science, which guide our approach and lend rigor to our study. In but also sets the stage for exploring how AI and ML are optimizing",
+          "score": 0.5119967460632324
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg004_ch014",
+          "paper_id": "P02",
+          "page_number": 4,
+          "start_word": 586,
+          "end_word": 640,
+          "text": "Science Research balance, achieving high accuracy with minimal resource consumption. Methodology and Paradigmatic Analysis of Information Systems as a This study not only illustrates the advancements in embedded systems Design Science, which guide our approach and lend rigor to our study. In but also sets the stage for exploring how AI and ML are optimizing",
+          "score": 0.6213050484657288
+        },
+        {
+          "chunk_id": "P02_pg002_ch022",
+          "paper_id": "P02",
+          "page_number": 2,
+          "start_word": 946,
+          "end_word": 1000,
+          "text": "is particularly unique in its approach, as it extends beyond theoretical concepts to provide actionable insights into places a strong emphasis on drawing inspiration and foundational implementing such systems, offering guidance on data collection, knowledge from well-established, reputable articles. This process of training, real-world testing, and seamless system integration, thereby referencing and building upon credible",
+          "score": 0.579137921333313
+        },
+        {
+          "chunk_id": "P02_pg005_ch006",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "role in guiding the research methodology and ensuring the highlights both the challenges and breakthroughs in AI and ML. It por­ practical relevance of the system. This section delves into the theoretical trays a journey from optimizing computational efficiency in face frameworks that form the backbone of our study, including the Design recognition systems to",
+          "score": 0.5722310543060303
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg013_ch026",
+          "paper_id": "P02",
+          "page_number": 13,
+          "start_word": 1126,
+          "end_word": 1138,
+          "text": "accuracy. images in the dataset, and the histograms for each member were 13",
+          "score": 0.481026291847229
+        },
+        {
+          "chunk_id": "P02_pg013_ch006",
+          "paper_id": "P02",
+          "page_number": 13,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "follow the same training process of collecting im­ This section provides a detailed examination of the rigorous testing ages, labeling them, computing LBPH, generating histograms, and and training procedures employed in the development of the attendance storing the histograms in a “Trainer.yml” file. However, the team using a management system: larger dataset size of 500",
+          "score": 0.4576554000377655
+        },
+        {
+          "chunk_id": "P02_pg002_ch001",
+          "paper_id": "P02",
+          "page_number": 2,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "B.-T. Nguyen-Tat et al. International Journal of Information Management Data Insights 4 (2024) 100253 individuals. This technology can identify individuals in a fraction of a The landscape of attendance tracking has long grappled with second, making the attendance process fast and efficient. The system multifaceted challenges stemming from conventional methods, uses a camera to capture",
+          "score": 0.4559694826602936
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg006_ch016",
+          "paper_id": "P02",
+          "page_number": 6,
+          "start_word": 676,
+          "end_word": 730,
+          "text": "of a round 6000 fea­ presented the results of experiments that demonstrated the effectiveness tures, representing a substantial reduction from the original 160,000+ of the method in detecting faces, as well as other objects such as pe­ features. destrians and vehicles, with high accuracy and speed. This paper has been cited extensively in the computer",
+          "score": 0.5516195297241211
+        },
+        {
+          "chunk_id": "P02_pg004_ch017",
+          "paper_id": "P02",
+          "page_number": 4,
+          "start_word": 721,
+          "end_word": 775,
+          "text": "to our experimental design and and Churi (2022) delve into the realm of stress management, applying evaluation. Here, we present the implementation of our research model, machine learning to identify stress factors in educational and profes­ the methodology for data collection and preparation, and a thorough sional settings. Their research exemplifies the potential of AI",
+          "score": 0.5365105271339417
+        },
+        {
+          "chunk_id": "P02_pg005_ch019",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 811,
+          "end_word": 865,
+          "text": "DSRM, where the artifact is tested in a the findings from multiple studies reviewed in this section. The Haar real-world scenario, is critical for validating the utility of our system. For Cascade algorithm offers a computationally efficient method for face our research, this involved deploying the system in an educational or detection, a critical component",
+          "score": 0.5206005573272705
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg005_ch017",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 721,
+          "end_word": 775,
+          "text": "Towards the end of this literature review, it is imperative to provide a importance of aligning research objectives with project stakeholders’ brief justification for the approach proposed in our research. We have expectations, an aspect we meticulously addressed by engaging with key chosen to combine the processes of Detection, Extraction, Labeling, and stakeholders from the",
+          "score": 0.5480104088783264
+        },
+        {
+          "chunk_id": "P02_pg006_ch016",
+          "paper_id": "P02",
+          "page_number": 6,
+          "start_word": 676,
+          "end_word": 730,
+          "text": "of a round 6000 fea­ presented the results of experiments that demonstrated the effectiveness tures, representing a substantial reduction from the original 160,000+ of the method in detecting faces, as well as other objects such as pe­ features. destrians and vehicles, with high accuracy and speed. This paper has been cited extensively in the computer",
+          "score": 0.45383232831954956
+        },
+        {
+          "chunk_id": "P02_pg007_ch008",
+          "paper_id": "P02",
+          "page_number": 7,
+          "start_word": 316,
+          "end_word": 370,
+          "text": "system design and methodology the initial few stages will have considerably fewer features). If a window used to model the research study’s objectives, as well as practical con­ fails the first stage, it is immediately discarded, and the remaining fea­ siderations for implementation in real-life scenarios. tures are not applied. However, if it passes, the",
+          "score": 0.4516870379447937
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg005_ch017",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 721,
+          "end_word": 775,
+          "text": "Towards the end of this literature review, it is imperative to provide a importance of aligning research objectives with project stakeholders’ brief justification for the approach proposed in our research. We have expectations, an aspect we meticulously addressed by engaging with key chosen to combine the processes of Detection, Extraction, Labeling, and stakeholders from the",
+          "score": 0.5701509118080139
+        },
+        {
+          "chunk_id": "P02_pg007_ch008",
+          "paper_id": "P02",
+          "page_number": 7,
+          "start_word": 316,
+          "end_word": 370,
+          "text": "system design and methodology the initial few stages will have considerably fewer features). If a window used to model the research study’s objectives, as well as practical con­ fails the first stage, it is immediately discarded, and the remaining fea­ siderations for implementation in real-life scenarios. tures are not applied. However, if it passes, the",
+          "score": 0.5634212493896484
+        },
+        {
+          "chunk_id": "P02_pg001_ch012",
+          "paper_id": "P02",
+          "page_number": 1,
+          "start_word": 496,
+          "end_word": 550,
+          "text": "not only address a pervasive gap in the literature but also offer a tangible solution to real-world In a world where technological innovations continue to redefine the problems faced by organizations and institutions in low-resource boundaries of management and information systems, our research settings. serves as a pivotal bridge between the theoretical realms of Management",
+          "score": 0.5166848301887512
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P02_pg001_ch012",
+          "paper_id": "P02",
+          "page_number": 1,
+          "start_word": 496,
+          "end_word": 550,
+          "text": "not only address a pervasive gap in the literature but also offer a tangible solution to real-world In a world where technological innovations continue to redefine the problems faced by organizations and institutions in low-resource boundaries of management and information systems, our research settings. serves as a pivotal bridge between the theoretical realms of Management",
+          "score": 0.615399181842804
+        },
+        {
+          "chunk_id": "P02_pg005_ch017",
+          "paper_id": "P02",
+          "page_number": 5,
+          "start_word": 721,
+          "end_word": 775,
+          "text": "Towards the end of this literature review, it is imperative to provide a importance of aligning research objectives with project stakeholders’ brief justification for the approach proposed in our research. We have expectations, an aspect we meticulously addressed by engaging with key chosen to combine the processes of Detection, Extraction, Labeling, and stakeholders from the",
+          "score": 0.6045236587524414
+        },
+        {
+          "chunk_id": "P02_pg002_ch026",
+          "paper_id": "P02",
+          "page_number": 2,
+          "start_word": 1126,
+          "end_word": 1180,
+          "text": "al., 2023; Samuel telligence, and engineering. This interdisciplinary versatility un­ et al., 2022; Tran et al., 2023; Johnson et al., 2022; Zeuge et al., 2023; derscores the profound significance of our solution in MIS, reinforcing Pan et al., 2023; Costa-Climent R et al., 2023; Islam et al., 2023; Iqbal its role as a transformative and",
+          "score": 0.5549277663230896
+        }
+      ]
+    }
+  },
+  "P03": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg024_ch012",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 464,
+          "end_word": 518,
+          "text": "read and agreed to the published version of the manuscript. Funding: This research received no external funding. Institutional Review Board Statement: The technical development and testing of a recognition algorithm, it does not fall under the category of human research as defined by the Declaration of Helsinki. Therefore, institutional review board (IRB) approval was not",
+          "score": 0.48404568433761597
+        },
+        {
+          "chunk_id": "P03_pg024_ch010",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 400,
+          "end_word": 438,
+          "text": "validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.; investiga- tion, S.P. and A.B.; resources, K.G., S.P. and A.B.; data curation, K.G., A.B. and S.P.; writing—original draft preparation, K.G., S.P., I.M., A.B. and S.G.; writing—review and editing, A.B.,",
+          "score": 0.47195231914520264
+        },
+        {
+          "chunk_id": "P03_pg003_ch010",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "testing (e.g., six participants for threshold determination) may limit the generalizability of the findings. The performance under challenging conditions still requires extended research. Variable conditions such as poor lighting or severe occlusions remain challenging, necessitating further enhancement of hardware or algorithmic robustness. Future work includes exploring higher-resolution cam- eras and expanding the user database to",
+          "score": 0.45243334770202637
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg003_ch005",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 181,
+          "end_word": 235,
+          "text": "such as lighting changes, facial angles, and occlusions, testing the robust- ness of the system in scenarios that mimic real-life applications. By incorporating diverse datasets, this research explicitly tackles algorithmic bias and discrimination, an aspect often overlooked in other studies, particularly those focused on advanced hardware solutions. The strengths of this approach are evident in",
+          "score": 0.5657052993774414
+        },
+        {
+          "chunk_id": "P03_pg024_ch009",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 361,
+          "end_word": 409,
+          "text": "the potential to be expanded into a variety of use cases, ranging from access control to data analytics and surveillance. Author Contributions: Conceptualization, S.P., A.B. and K.G.; methodology, S.P., T.K. and A.B.; soft- ware, K.G., A.B., S.P. and I.M.; validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.;",
+          "score": 0.5438566207885742
+        },
+        {
+          "chunk_id": "P03_pg024_ch010",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 400,
+          "end_word": 438,
+          "text": "validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.; investiga- tion, S.P. and A.B.; resources, K.G., S.P. and A.B.; data curation, K.G., A.B. and S.P.; writing—original draft preparation, K.G., S.P., I.M., A.B. and S.G.; writing—review and editing, A.B.,",
+          "score": 0.49238121509552
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg017_ch003",
+          "paper_id": "P03",
+          "page_number": 17,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "considered. Twelve participants took part in the study, including eight males of different ages (from 16 to 49 years old) and four females of different ages (from 19 to 51 years old). All users were entered into the database. In the following part of the article, only selected images (photos) of volunteers are presented. These",
+          "score": 0.6321953535079956
+        },
+        {
+          "chunk_id": "P03_pg017_ch004",
+          "paper_id": "P03",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "article, only selected images (photos) of volunteers are presented. These tests helped identify a suitable threshold value for achieving the desired balance between accuracy and efficiency (Figure 11). Figure 11. Test group users (photos from the application database): (a) User No. 1 (Kacper); (b) User No. 2 (Bartosz); (c) User No. 3 (Damian); (d) User",
+          "score": 0.5185303688049316
+        },
+        {
+          "chunk_id": "P03_pg016_ch011",
+          "paper_id": "P03",
+          "page_number": 16,
+          "start_word": 443,
+          "end_word": 466,
+          "text": "In selecting the sample group for this study, key biometric variations known to influ- ence facial recognition accuracy were considered. These variations included demographic",
+          "score": 0.44775331020355225
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg024_ch010",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 400,
+          "end_word": 438,
+          "text": "validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.; investiga- tion, S.P. and A.B.; resources, K.G., S.P. and A.B.; data curation, K.G., A.B. and S.P.; writing—original draft preparation, K.G., S.P., I.M., A.B. and S.G.; writing—review and editing, A.B.,",
+          "score": 0.6239391565322876
+        },
+        {
+          "chunk_id": "P03_pg017_ch004",
+          "paper_id": "P03",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "article, only selected images (photos) of volunteers are presented. These tests helped identify a suitable threshold value for achieving the desired balance between accuracy and efficiency (Figure 11). Figure 11. Test group users (photos from the application database): (a) User No. 1 (Kacper); (b) User No. 2 (Bartosz); (c) User No. 3 (Damian); (d) User",
+          "score": 0.5534719228744507
+        },
+        {
+          "chunk_id": "P03_pg003_ch010",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "testing (e.g., six participants for threshold determination) may limit the generalizability of the findings. The performance under challenging conditions still requires extended research. Variable conditions such as poor lighting or severe occlusions remain challenging, necessitating further enhancement of hardware or algorithmic robustness. Future work includes exploring higher-resolution cam- eras and expanding the user database to",
+          "score": 0.5231096744537354
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg024_ch010",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 400,
+          "end_word": 438,
+          "text": "validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.; investiga- tion, S.P. and A.B.; resources, K.G., S.P. and A.B.; data curation, K.G., A.B. and S.P.; writing—original draft preparation, K.G., S.P., I.M., A.B. and S.G.; writing—review and editing, A.B.,",
+          "score": 0.5143505334854126
+        },
+        {
+          "chunk_id": "P03_pg017_ch003",
+          "paper_id": "P03",
+          "page_number": 17,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "considered. Twelve participants took part in the study, including eight males of different ages (from 16 to 49 years old) and four females of different ages (from 19 to 51 years old). All users were entered into the database. In the following part of the article, only selected images (photos) of volunteers are presented. These",
+          "score": 0.4986421465873718
+        },
+        {
+          "chunk_id": "P03_pg024_ch012",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 464,
+          "end_word": 518,
+          "text": "read and agreed to the published version of the manuscript. Funding: This research received no external funding. Institutional Review Board Statement: The technical development and testing of a recognition algorithm, it does not fall under the category of human research as defined by the Declaration of Helsinki. Therefore, institutional review board (IRB) approval was not",
+          "score": 0.45131319761276245
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg003_ch010",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "testing (e.g., six participants for threshold determination) may limit the generalizability of the findings. The performance under challenging conditions still requires extended research. Variable conditions such as poor lighting or severe occlusions remain challenging, necessitating further enhancement of hardware or algorithmic robustness. Future work includes exploring higher-resolution cam- eras and expanding the user database to",
+          "score": 0.5829184055328369
+        },
+        {
+          "chunk_id": "P03_pg024_ch010",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 400,
+          "end_word": 438,
+          "text": "validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.; investiga- tion, S.P. and A.B.; resources, K.G., S.P. and A.B.; data curation, K.G., A.B. and S.P.; writing—original draft preparation, K.G., S.P., I.M., A.B. and S.G.; writing—review and editing, A.B.,",
+          "score": 0.5427623987197876
+        },
+        {
+          "chunk_id": "P03_pg003_ch001",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Appl. Sci. 2025, 15, 887 3 of 27 vulnerabilities to biometric similarities and spoofing highlight the need for additional secu- rity measures, such as integrating thermal imaging. This paper discusses the development, testing, and potential applications of the system, emphasizing its strengths and limitations. This study is critical as it explores the application of low-cost,",
+          "score": 0.5161170959472656
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P03_pg003_ch013",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 541,
+          "end_word": 573,
+          "text": "system’s strengths, limitations, and practical applications. In Discussion, we propose future improvements, such as integrating thermal imaging and using higher-resolution cameras, to address current challenges and expand potential applications. Finally, in the Conclusion",
+          "score": 0.5039787888526917
+        },
+        {
+          "chunk_id": "P03_pg024_ch009",
+          "paper_id": "P03",
+          "page_number": 24,
+          "start_word": 361,
+          "end_word": 409,
+          "text": "the potential to be expanded into a variety of use cases, ranging from access control to data analytics and surveillance. Author Contributions: Conceptualization, S.P., A.B. and K.G.; methodology, S.P., T.K. and A.B.; soft- ware, K.G., A.B., S.P. and I.M.; validation, S.G. and I.M.; formal analysis, S.G., I.M. and T.K.;",
+          "score": 0.4684707522392273
+        },
+        {
+          "chunk_id": "P03_pg003_ch010",
+          "paper_id": "P03",
+          "page_number": 3,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "testing (e.g., six participants for threshold determination) may limit the generalizability of the findings. The performance under challenging conditions still requires extended research. Variable conditions such as poor lighting or severe occlusions remain challenging, necessitating further enhancement of hardware or algorithmic robustness. Future work includes exploring higher-resolution cam- eras and expanding the user database to",
+          "score": 0.45304322242736816
+        }
+      ]
+    }
+  },
+  "P04": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch011",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 447,
+          "end_word": 491,
+          "text": "Y.-H.H. validation, C.-L.L. and Y.-H.H.; formal analysis, Y.-H.H.; data curation, Y.-H.H.; writing—original draft preparation, C.-L.L. and Y.-H.H.; writing—review and editing, C.-L.L.; super- vision, C.-L.L. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts",
+          "score": 0.42418283224105835
+        },
+        {
+          "chunk_id": "P04_pg003_ch006",
+          "paper_id": "P04",
+          "page_number": 3,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "of our proposed AAS, students cannot skip classes without the knowledge of their teachers. This study is organized as follows. In Section 2, the proposed AAS schematic and methods are described. Section 3 shows the results of this study. Section 4 discusses the proposed AAS system and indicates the advantages of the proposed methods. Section",
+          "score": 0.4105302691459656
+        },
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.4098883867263794
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.5335367321968079
+        },
+        {
+          "chunk_id": "P04_pg013_ch006",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "recognition methods. 5. Conclusions In this study, we applied a combination of a number of common methods and libraries in order to develop an AAS system. In addition, we used our proposed data serialization and adaptive tolerance for Euclidean-distance methods to optimize the performance of this AAS. Data serialization was utilized in order to support",
+          "score": 0.4705738127231598
+        },
+        {
+          "chunk_id": "P04_pg003_ch007",
+          "paper_id": "P04",
+          "page_number": 3,
+          "start_word": 271,
+          "end_word": 325,
+          "text": "system and indicates the advantages of the proposed methods. Section 5 provides concluding remarks. 2. Methods Figure 1 shows the schematic of our proposed AAS. The design of our AAS system includes four main components: a Raspberry Pi camera built into a Raspberry Pi 3B; a Django background processing system, the OpenCV image processing library,",
+          "score": 0.42549633979797363
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.42557501792907715
+        },
+        {
+          "chunk_id": "P04_pg003_ch003",
+          "paper_id": "P04",
+          "page_number": 3,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "algorithms was based on this cloud server, which handles the processes involved in registering student attendance, namely, comparing faces using extracted features stored in a database. 2. Creating an SQLite database to save students’ facial features based on data serializa- tion, which we propose as the strategy for this process. In order to create the",
+          "score": 0.37727999687194824
+        },
+        {
+          "chunk_id": "P04_pg013_ch006",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "recognition methods. 5. Conclusions In this study, we applied a combination of a number of common methods and libraries in order to develop an AAS system. In addition, we used our proposed data serialization and adaptive tolerance for Euclidean-distance methods to optimize the performance of this AAS. Data serialization was utilized in order to support",
+          "score": 0.36151355504989624
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.4675300717353821
+        },
+        {
+          "chunk_id": "P04_pg013_ch006",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "recognition methods. 5. Conclusions In this study, we applied a combination of a number of common methods and libraries in order to develop an AAS system. In addition, we used our proposed data serialization and adaptive tolerance for Euclidean-distance methods to optimize the performance of this AAS. Data serialization was utilized in order to support",
+          "score": 0.4514474868774414
+        },
+        {
+          "chunk_id": "P04_pg013_ch011",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 447,
+          "end_word": 491,
+          "text": "Y.-H.H. validation, C.-L.L. and Y.-H.H.; formal analysis, Y.-H.H.; data curation, Y.-H.H.; writing—original draft preparation, C.-L.L. and Y.-H.H.; writing—review and editing, C.-L.L.; super- vision, C.-L.L. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts",
+          "score": 0.43369871377944946
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch011",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 447,
+          "end_word": 491,
+          "text": "Y.-H.H. validation, C.-L.L. and Y.-H.H.; formal analysis, Y.-H.H.; data curation, Y.-H.H.; writing—original draft preparation, C.-L.L. and Y.-H.H.; writing—review and editing, C.-L.L.; super- vision, C.-L.L. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts",
+          "score": 0.4583168029785156
+        },
+        {
+          "chunk_id": "P04_pg013_ch013",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 527,
+          "end_word": 576,
+          "text": "945–952. 2. Liu, H.; Zheng, C.; Li, D.; Shen, X.; Lin, K.; Wang, J.; Zhang, Z.; Zhang, Z.; Xiong, N.N. EDMF: Efﬁcient deep matrix factorization with review feature learning for industrial recommender system. IEEE Trans. Ind. Inform. 2021, 18, 4361–4371. [CrossRef] 3. Li, D.; Liu, H.; Zhang, Z.; Lin, K.;",
+          "score": 0.40491533279418945
+        },
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.39039185643196106
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch011",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 447,
+          "end_word": 491,
+          "text": "Y.-H.H. validation, C.-L.L. and Y.-H.H.; formal analysis, Y.-H.H.; data curation, Y.-H.H.; writing—original draft preparation, C.-L.L. and Y.-H.H.; writing—review and editing, C.-L.L.; super- vision, C.-L.L. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts",
+          "score": 0.4247737526893616
+        },
+        {
+          "chunk_id": "P04_pg003_ch006",
+          "paper_id": "P04",
+          "page_number": 3,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "of our proposed AAS, students cannot skip classes without the knowledge of their teachers. This study is organized as follows. In Section 2, the proposed AAS schematic and methods are described. Section 3 shows the results of this study. Section 4 discusses the proposed AAS system and indicates the advantages of the proposed methods. Section",
+          "score": 0.42340579628944397
+        },
+        {
+          "chunk_id": "P04_pg013_ch009",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 361,
+          "end_word": 415,
+          "text": "these techniques supports improvements in the design and application of facial recognition. However, the AAS implemented in this study also has some shortcomings which should be addressed—viz: When the light levels in the classroom are low, this can mean that the proposed system manifests low accuracy in terms of face detection and recognition. In the",
+          "score": 0.4207136631011963
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P04_pg013_ch011",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 447,
+          "end_word": 491,
+          "text": "Y.-H.H. validation, C.-L.L. and Y.-H.H.; formal analysis, Y.-H.H.; data curation, Y.-H.H.; writing—original draft preparation, C.-L.L. and Y.-H.H.; writing—review and editing, C.-L.L.; super- vision, C.-L.L. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts",
+          "score": 0.3978707194328308
+        },
+        {
+          "chunk_id": "P04_pg003_ch006",
+          "paper_id": "P04",
+          "page_number": 3,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "of our proposed AAS, students cannot skip classes without the knowledge of their teachers. This study is organized as follows. In Section 2, the proposed AAS schematic and methods are described. Section 3 shows the results of this study. Section 4 discusses the proposed AAS system and indicates the advantages of the proposed methods. Section",
+          "score": 0.3713017702102661
+        },
+        {
+          "chunk_id": "P04_pg013_ch001",
+          "paper_id": "P04",
+          "page_number": 13,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Electronics 2022, 11, 2278 13 of 15 4. Discussion This study was a pilot study because we tested the performance of an AAS system in the laboratory rather than in the classroom. The study proposed a real-time AAS system schematic. Data serialization converted data objects (record images) present in complex data structures into a byte",
+          "score": 0.3696145713329315
+        }
+      ]
+    }
+  },
+  "P05": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg017_ch004",
+          "paper_id": "P05",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "actionable and comprehensible explanations for non-technical users. We note that this study is formative and limited in scale; larger longitudinal evaluations across multiple institutions are planned as future work. The human evaluation as presented in Table 6 yielded an average helpfulness rating of 4.2 ± 0.6 on a 5-point scale. Participants emphasized that explanations increased",
+          "score": 0.5382533073425293
+        },
+        {
+          "chunk_id": "P05_pg025_ch020",
+          "paper_id": "P05",
+          "page_number": 25,
+          "start_word": 856,
+          "end_word": 873,
+          "text": "also depends on institutional practices such as scheduled model audits, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 25",
+          "score": 0.5324556827545166
+        },
+        {
+          "chunk_id": "P05_pg016_ch008",
+          "paper_id": "P05",
+          "page_number": 16,
+          "start_word": 316,
+          "end_word": 327,
+          "text": "clarity of the explanation, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 16",
+          "score": 0.49063804745674133
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg029_ch002",
+          "paper_id": "P05",
+          "page_number": 29,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "collected or disclosed in the course of this work. Publicly available benchmark datasets, including CASIA-FASD, DFDC, FairFace, and LFW, were used solely for experimental purposes in compliance with their respective licenses. For the small in-house classroom dataset created to validate the LaED framework, all participants provided informed consent, and the data were anonymized prior to",
+          "score": 0.4951364994049072
+        },
+        {
+          "chunk_id": "P05_pg007_ch013",
+          "paper_id": "P05",
+          "page_number": 7,
+          "start_word": 541,
+          "end_word": 595,
+          "text": "across demographic groups, and privacy-aware deployment feasibility. Experiments were conducted using multiple datasets, baseline systems, hardware platforms, and evaluation metrics to reflect realistic classroom deployment conditions. Datasets The system was evaluated using a combination of well-established benchmark datasets and a custom classroom dataset created under consent-driven conditions. This hybrid approach ensures that the framework is",
+          "score": 0.47559475898742676
+        },
+        {
+          "chunk_id": "P05_pg025_ch020",
+          "paper_id": "P05",
+          "page_number": 25,
+          "start_word": 856,
+          "end_word": 873,
+          "text": "also depends on institutional practices such as scheduled model audits, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 25",
+          "score": 0.4743112325668335
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg029_ch002",
+          "paper_id": "P05",
+          "page_number": 29,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "collected or disclosed in the course of this work. Publicly available benchmark datasets, including CASIA-FASD, DFDC, FairFace, and LFW, were used solely for experimental purposes in compliance with their respective licenses. For the small in-house classroom dataset created to validate the LaED framework, all participants provided informed consent, and the data were anonymized prior to",
+          "score": 0.626960277557373
+        },
+        {
+          "chunk_id": "P05_pg007_ch013",
+          "paper_id": "P05",
+          "page_number": 7,
+          "start_word": 541,
+          "end_word": 595,
+          "text": "across demographic groups, and privacy-aware deployment feasibility. Experiments were conducted using multiple datasets, baseline systems, hardware platforms, and evaluation metrics to reflect realistic classroom deployment conditions. Datasets The system was evaluated using a combination of well-established benchmark datasets and a custom classroom dataset created under consent-driven conditions. This hybrid approach ensures that the framework is",
+          "score": 0.5764334201812744
+        },
+        {
+          "chunk_id": "P05_pg008_ch004",
+          "paper_id": "P05",
+          "page_number": 8,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "balanced distribution across gender, age, and racial groups, enabling precise monitoring of subgroup performance disparities. Finally, an in-house classroom dataset was collected to capture the conditions that are not present in public repositories. It includes 50 participants across 12 sessions, and reflects natural variations such as students wearing masks or glasses, changes in lighting, partial",
+          "score": 0.5243944525718689
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg010_ch001",
+          "paper_id": "P05",
+          "page_number": 10,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "www.nature.com/scientificreports/ Evaluation metrics The performance of LaED was measured using a wide range of indicators. Accuracy alone was not considered sufficient, since a system that is highly accurate in one condition but fails under attack or discriminates across groups cannot be considered reliable. Instead, the evaluation relied on multiple dimensions. Recognition quality was measured using",
+          "score": 0.6096358895301819
+        },
+        {
+          "chunk_id": "P05_pg010_ch006",
+          "paper_id": "P05",
+          "page_number": 10,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "calibration was tested against this threshold. Finally, scalability indicators such as communication cost in federated training and throughput in multi-user sessions were measured. These indicators were particularly important to demonstrate that LaED can be deployed across campuses or across institutions without creating bottlenecks. Ablation studies Ablation experiments were conducted to evaluate the contribution of individual",
+          "score": 0.5983255505561829
+        },
+        {
+          "chunk_id": "P05_pg029_ch002",
+          "paper_id": "P05",
+          "page_number": 29,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "collected or disclosed in the course of this work. Publicly available benchmark datasets, including CASIA-FASD, DFDC, FairFace, and LFW, were used solely for experimental purposes in compliance with their respective licenses. For the small in-house classroom dataset created to validate the LaED framework, all participants provided informed consent, and the data were anonymized prior to",
+          "score": 0.5556933879852295
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg019_ch009",
+          "paper_id": "P05",
+          "page_number": 19,
+          "start_word": 361,
+          "end_word": 379,
+          "text": "prior methods report reduced performance for darker-skinned and female subgroups, reflecting Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 19",
+          "score": 0.554041862487793
+        },
+        {
+          "chunk_id": "P05_pg025_ch020",
+          "paper_id": "P05",
+          "page_number": 25,
+          "start_word": 856,
+          "end_word": 873,
+          "text": "also depends on institutional practices such as scheduled model audits, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 25",
+          "score": 0.5443645715713501
+        },
+        {
+          "chunk_id": "P05_pg017_ch004",
+          "paper_id": "P05",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "actionable and comprehensible explanations for non-technical users. We note that this study is formative and limited in scale; larger longitudinal evaluations across multiple institutions are planned as future work. The human evaluation as presented in Table 6 yielded an average helpfulness rating of 4.2 ± 0.6 on a 5-point scale. Participants emphasized that explanations increased",
+          "score": 0.5318787097930908
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg019_ch009",
+          "paper_id": "P05",
+          "page_number": 19,
+          "start_word": 361,
+          "end_word": 379,
+          "text": "prior methods report reduced performance for darker-skinned and female subgroups, reflecting Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 19",
+          "score": 0.5762277841567993
+        },
+        {
+          "chunk_id": "P05_pg017_ch004",
+          "paper_id": "P05",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "actionable and comprehensible explanations for non-technical users. We note that this study is formative and limited in scale; larger longitudinal evaluations across multiple institutions are planned as future work. The human evaluation as presented in Table 6 yielded an average helpfulness rating of 4.2 ± 0.6 on a 5-point scale. Participants emphasized that explanations increased",
+          "score": 0.5698598027229309
+        },
+        {
+          "chunk_id": "P05_pg025_ch020",
+          "paper_id": "P05",
+          "page_number": 25,
+          "start_word": 856,
+          "end_word": 873,
+          "text": "also depends on institutional practices such as scheduled model audits, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 25",
+          "score": 0.5465237498283386
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P05_pg025_ch020",
+          "paper_id": "P05",
+          "page_number": 25,
+          "start_word": 856,
+          "end_word": 873,
+          "text": "also depends on institutional practices such as scheduled model audits, Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 25",
+          "score": 0.5104701519012451
+        },
+        {
+          "chunk_id": "P05_pg023_ch007",
+          "paper_id": "P05",
+          "page_number": 23,
+          "start_word": 271,
+          "end_word": 310,
+          "text": "measurable improvements in accuracy, fairness, and security. However, the broader significance of the framework lies in its ability to respond to the ethical and legal challenges that have derailed many other initiatives. Scientific Reports | (2026) 16:15215 | https://doi.org/10.1038/s41598-026-42051-8 23",
+          "score": 0.46198540925979614
+        },
+        {
+          "chunk_id": "P05_pg017_ch004",
+          "paper_id": "P05",
+          "page_number": 17,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "actionable and comprehensible explanations for non-technical users. We note that this study is formative and limited in scale; larger longitudinal evaluations across multiple institutions are planned as future work. The human evaluation as presented in Table 6 yielded an average helpfulness rating of 4.2 ± 0.6 on a 5-point scale. Participants emphasized that explanations increased",
+          "score": 0.4434181749820709
+        }
+      ]
+    }
+  },
+  "P06": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg013_ch011",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results. References 1. Zainal, N.I.; Sidek, K.A.; Gunawan, T.S.;",
+          "score": 0.39537686109542847
+        },
+        {
+          "chunk_id": "P06_pg009_ch003",
+          "paper_id": "P06",
+          "page_number": 9,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "area of the object under test cannot be larger than the surface area of the object under test; otherwise, the measurement value will be distorted. For example, when the distance is far, the projection on the surface of the object (such as the human face) may contain areas of lower temperature, such as glasses, hair,",
+          "score": 0.38038527965545654
+        },
+        {
+          "chunk_id": "P06_pg013_ch010",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "X.-Y.C.; software, C.-Y.W. All authors have read and agreed to the published version of the manuscript. Funding: This research was supported by the Ministry of Science and Technology, Taiwan, under Grant MOST 111-2221-E-008-089-MY3. Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable. Data Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare",
+          "score": 0.3517093062400818
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg011_ch003",
+          "paper_id": "P06",
+          "page_number": 11,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "the system will be discussed as follows. 5.1. Different Training Datasets and Lighter Model We performed the same training process on CASIA-WebFace mixed with simulated masked faces to compare the performance. Then, we ran the validation on LFW and MFR2. Although the model trained on simulated CASIA-WebFace also achieves good accuracy results, the validation rate",
+          "score": 0.3813953995704651
+        },
+        {
+          "chunk_id": "P06_pg012_ch006",
+          "paper_id": "P06",
+          "page_number": 12,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "set up as shown in Figure 7. There was also a small screen on the edge device to present the recognition result and body temperature to the users. Figure 7. Embedded system settings, including Pi camera for video data input and thermal camera for temperature information input. 5.3. Simulation Results For the real-world experiment, we",
+          "score": 0.35328012704849243
+        },
+        {
+          "chunk_id": "P06_pg002_ch007",
+          "paper_id": "P06",
+          "page_number": 2,
+          "start_word": 271,
+          "end_word": 325,
+          "text": "the risk of infection, a remote measurement system combined with people identiﬁcation is needed. To achieve a remote method, non-contact infrared temperature measurement modules such as MLX90614 and MLX90615 are applied for this system. These modules can detect the surface temperature of an object; however, the accuracy of measurement is dependent on the cost and",
+          "score": 0.34921425580978394
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg012_ch007",
+          "paper_id": "P06",
+          "page_number": 12,
+          "start_word": 271,
+          "end_word": 325,
+          "text": "information input. 5.3. Simulation Results For the real-world experiment, we added 17 people to the database for testing purposes. Each person saved two images in the database: one with a mask and the other without a mask. Each person performed face recognition on different days, and the accuracy result after 20 times is shown in",
+          "score": 0.4430590271949768
+        },
+        {
+          "chunk_id": "P06_pg005_ch004",
+          "paper_id": "P06",
+          "page_number": 5,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "which will be compared with the facial features previously built into the database to conﬁrm the identity of the person. Finally, the recognition results and the measured temperature are recorded. This method can be used to record the temperature of people while assisting them to punch in and out. In today’s rampant COVID-19 environment, it",
+          "score": 0.3730866611003876
+        },
+        {
+          "chunk_id": "P06_pg012_ch008",
+          "paper_id": "P06",
+          "page_number": 12,
+          "start_word": 316,
+          "end_word": 361,
+          "text": "and the accuracy result after 20 times is shown in Table 6. The accuracy with a mask and without a mask is 94.1% and 91.8%, respectively. The result shows that the model trained by the simulated masked dataset can be successfully applied to a real-world situation.",
+          "score": 0.36711621284484863
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg009_ch008",
+          "paper_id": "P06",
+          "page_number": 9,
+          "start_word": 316,
+          "end_word": 370,
+          "text": "is used as the temperature measuring device in our system, the person to be tested should be prompted to approach MLX90614 for temperature measurement very closely. It does not look friendly to the user. In our system, we use the FLIR Radiometric Lepton 2.5 for body temperature measurement. Table 3. Comparison of different temperature sensor.",
+          "score": 0.44647300243377686
+        },
+        {
+          "chunk_id": "P06_pg007_ch009",
+          "paper_id": "P06",
+          "page_number": 7,
+          "start_word": 361,
+          "end_word": 389,
+          "text": "values of 0.05, 0.005, and 0.0005 in different training stages. Finally, the model converges, and the accuracy of the LFW dataset is about 98%, as shown in Figure 3.",
+          "score": 0.4405476450920105
+        },
+        {
+          "chunk_id": "P06_pg011_ch003",
+          "paper_id": "P06",
+          "page_number": 11,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "the system will be discussed as follows. 5.1. Different Training Datasets and Lighter Model We performed the same training process on CASIA-WebFace mixed with simulated masked faces to compare the performance. Then, we ran the validation on LFW and MFR2. Although the model trained on simulated CASIA-WebFace also achieves good accuracy results, the validation rate",
+          "score": 0.4381924867630005
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg013_ch011",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results. References 1. Zainal, N.I.; Sidek, K.A.; Gunawan, T.S.;",
+          "score": 0.38269317150115967
+        },
+        {
+          "chunk_id": "P06_pg007_ch009",
+          "paper_id": "P06",
+          "page_number": 7,
+          "start_word": 361,
+          "end_word": 389,
+          "text": "values of 0.05, 0.005, and 0.0005 in different training stages. Finally, the model converges, and the accuracy of the LFW dataset is about 98%, as shown in Figure 3.",
+          "score": 0.3755981922149658
+        },
+        {
+          "chunk_id": "P06_pg013_ch010",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "X.-Y.C.; software, C.-Y.W. All authors have read and agreed to the published version of the manuscript. Funding: This research was supported by the Ministry of Science and Technology, Taiwan, under Grant MOST 111-2221-E-008-089-MY3. Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable. Data Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare",
+          "score": 0.35646647214889526
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg004_ch012",
+          "paper_id": "P06",
+          "page_number": 4,
+          "start_word": 496,
+          "end_word": 550,
+          "text": "ability of deep features. However, when based on large-scale data sets, it needs to face the problem of huge sample pairs and sample triplets sampling. Center loss uses the same training data format as softmax loss and does not require complex training data resampling. In real unconstrained scenes, there are still many challenges in the",
+          "score": 0.4587555527687073
+        },
+        {
+          "chunk_id": "P06_pg009_ch003",
+          "paper_id": "P06",
+          "page_number": 9,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "area of the object under test cannot be larger than the surface area of the object under test; otherwise, the measurement value will be distorted. For example, when the distance is far, the projection on the surface of the object (such as the human face) may contain areas of lower temperature, such as glasses, hair,",
+          "score": 0.4035758972167969
+        },
+        {
+          "chunk_id": "P06_pg013_ch011",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results. References 1. Zainal, N.I.; Sidek, K.A.; Gunawan, T.S.;",
+          "score": 0.4006843566894531
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P06_pg013_ch011",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 505,
+          "text": "Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results. References 1. Zainal, N.I.; Sidek, K.A.; Gunawan, T.S.;",
+          "score": 0.3896210193634033
+        },
+        {
+          "chunk_id": "P06_pg013_ch010",
+          "paper_id": "P06",
+          "page_number": 13,
+          "start_word": 406,
+          "end_word": 460,
+          "text": "X.-Y.C.; software, C.-Y.W. All authors have read and agreed to the published version of the manuscript. Funding: This research was supported by the Ministry of Science and Technology, Taiwan, under Grant MOST 111-2221-E-008-089-MY3. Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable. Data Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare",
+          "score": 0.3720434308052063
+        },
+        {
+          "chunk_id": "P06_pg003_ch001",
+          "paper_id": "P06",
+          "page_number": 3,
+          "start_word": 1,
+          "end_word": 55,
+          "text": "Sensors 2023, 23, 2901 3 of 15 proach. Section 4 describes the proposed attendance system with temperature measurement. Section 5 presents the system results and discussions. Section 6 concludes this paper. 2. Related Works In this section, we will introduce the research on face detection and face recognition. To achieve a face recognition system, several",
+          "score": 0.3087534010410309
+        }
+      ]
+    }
+  },
+  "P07": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg015_ch005",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 160,
+          "end_word": 193,
+          "text": "investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.; writing—original draft preparation, M.R. and S.W.-I.; writing—review and editing, P.N. and M.R.; visualization, P.N., M.R., and S.W.-I.; supervision, P.N. and M.R.; project administration, P.N.,",
+          "score": 0.4942193627357483
+        },
+        {
+          "chunk_id": "P07_pg005_ch006",
+          "paper_id": "P07",
+          "page_number": 5,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "in education. 3.2. Instrument The questionnaire was separated into two major sections. The primary section exam- ined the respondents’ demographic characteristics (age and gender) in our experimental study. The secondary section of the study examined student perceptions using the Tech- nology Acceptance Modal (TAM) and Theory for Reasoned Action (TRA). The following ﬁve components were",
+          "score": 0.4922882318496704
+        },
+        {
+          "chunk_id": "P07_pg013_ch011",
+          "paper_id": "P07",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 483,
+          "text": "the study’s primary contribution: • The framework for biometric examination attendance recognition was proposed and a prototype application was developed. The study demonstrates the educational biometric recognition framework’s practical outcomes, emphasizing unimodal and",
+          "score": 0.48927217721939087
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg015_ch004",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 136,
+          "end_word": 169,
+          "text": "Contributions: Conceptualization, P.N. and M.R.; methodology, S.W.-I. and P.N.; software evaluation and modeling, S.W.-I.; validation, P.N., M.R., and S.W.-I.; formal analysis, P.N. and M.R.; investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.;",
+          "score": 0.5772422552108765
+        },
+        {
+          "chunk_id": "P07_pg015_ch005",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 160,
+          "end_word": 193,
+          "text": "investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.; writing—original draft preparation, M.R. and S.W.-I.; writing—review and editing, P.N. and M.R.; visualization, P.N., M.R., and S.W.-I.; supervision, P.N. and M.R.; project administration, P.N.,",
+          "score": 0.5518479347229004
+        },
+        {
+          "chunk_id": "P07_pg006_ch002",
+          "paper_id": "P07",
+          "page_number": 6,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "a multimodal recognition results. 3.3. Instrument Validation and Analysis This study’s methodology was quantitative. A questionnaire was initially developed to elicit student perceptions and test hypotheses. Perceptions and hypotheses were developed in accordance with DeVellis and Thorpe’s guidelines [61]. The proposed method generated a list of components to evaluate, deﬁned the items within each element,",
+          "score": 0.46440067887306213
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg015_ch008",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 274,
+          "end_word": 328,
+          "text": "obtained from all study participants. Partici- pants were at least 18 years old. As part of the ethical research, the authors respect the voluntariness, anonymity, freedom, and conﬁdentiality of the participants. The provided data contained no infor- mation that could be used to determine the participants’ identities. Data Availability Statement: Not applicable. Conﬂicts of Interest:",
+          "score": 0.5393539667129517
+        },
+        {
+          "chunk_id": "P07_pg007_ch003",
+          "paper_id": "P07",
+          "page_number": 7,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "used to selecting 161 user samples voluntarily. This research did not involve hazardous chemicals, equipment, procedures, animal or human testing, or the use of animals. However, this study obtained informed consent from individuals before collecting biometric data using and handling their facial biometric data. A consent form for facial biometric collection outlined the introduction, purpose,",
+          "score": 0.5282156467437744
+        },
+        {
+          "chunk_id": "P07_pg013_ch011",
+          "paper_id": "P07",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 483,
+          "text": "the study’s primary contribution: • The framework for biometric examination attendance recognition was proposed and a prototype application was developed. The study demonstrates the educational biometric recognition framework’s practical outcomes, emphasizing unimodal and",
+          "score": 0.5090352296829224
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg006_ch002",
+          "paper_id": "P07",
+          "page_number": 6,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "a multimodal recognition results. 3.3. Instrument Validation and Analysis This study’s methodology was quantitative. A questionnaire was initially developed to elicit student perceptions and test hypotheses. Perceptions and hypotheses were developed in accordance with DeVellis and Thorpe’s guidelines [61]. The proposed method generated a list of components to evaluate, deﬁned the items within each element,",
+          "score": 0.6231763362884521
+        },
+        {
+          "chunk_id": "P07_pg006_ch003",
+          "paper_id": "P07",
+          "page_number": 6,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "of components to evaluate, deﬁned the items within each element, speciﬁed the measurement scale, and validated the model’s reliability and validity. Cronbach’s alpha [62], compound reliability (CR), convergent validity (AVE), and item analysis were used as indicators in the ﬁnal step. SPSS was used to perform Exploratory Factor Analysis (EFA) and construct validity checks on",
+          "score": 0.6081709265708923
+        },
+        {
+          "chunk_id": "P07_pg015_ch004",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 136,
+          "end_word": 169,
+          "text": "Contributions: Conceptualization, P.N. and M.R.; methodology, S.W.-I. and P.N.; software evaluation and modeling, S.W.-I.; validation, P.N., M.R., and S.W.-I.; formal analysis, P.N. and M.R.; investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.;",
+          "score": 0.5534725189208984
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg013_ch011",
+          "paper_id": "P07",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 483,
+          "text": "the study’s primary contribution: • The framework for biometric examination attendance recognition was proposed and a prototype application was developed. The study demonstrates the educational biometric recognition framework’s practical outcomes, emphasizing unimodal and",
+          "score": 0.5485197305679321
+        },
+        {
+          "chunk_id": "P07_pg008_ch002",
+          "paper_id": "P07",
+          "page_number": 8,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "the three examination sessions. This section provides a summary of the study of the perceptions performed. 4.1. Desctiptive Statistic Males were the majority of participants (57.10%). The ages were 19 years old (33.50%). Table 1 shows the student demographic information in this research. The numerical assessment results for each aspect variable in the survey are",
+          "score": 0.5196435451507568
+        },
+        {
+          "chunk_id": "P07_pg017_ch019",
+          "paper_id": "P07",
+          "page_number": 17,
+          "start_word": 745,
+          "end_word": 788,
+          "text": "Tour. 2021, 22, 36–60. [CrossRef] 73. Hair, J.F.; Black, W.C.; Babin, B.J.; Anderson, R.E. Multivariate Data Analysis, 7th ed.; Prentice–Hall: Hoboken, NJ, USA, 2010. 74. Bagozzi, P.R.; Yi, Y. On the evaluation of structural equation models. J. Acad. Mark. Sci. 1964, 16, 74–94. [CrossRef]",
+          "score": 0.5195205211639404
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg013_ch011",
+          "paper_id": "P07",
+          "page_number": 13,
+          "start_word": 451,
+          "end_word": 483,
+          "text": "the study’s primary contribution: • The framework for biometric examination attendance recognition was proposed and a prototype application was developed. The study demonstrates the educational biometric recognition framework’s practical outcomes, emphasizing unimodal and",
+          "score": 0.5388919115066528
+        },
+        {
+          "chunk_id": "P07_pg015_ch004",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 136,
+          "end_word": 169,
+          "text": "Contributions: Conceptualization, P.N. and M.R.; methodology, S.W.-I. and P.N.; software evaluation and modeling, S.W.-I.; validation, P.N., M.R., and S.W.-I.; formal analysis, P.N. and M.R.; investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.;",
+          "score": 0.5027899146080017
+        },
+        {
+          "chunk_id": "P07_pg006_ch002",
+          "paper_id": "P07",
+          "page_number": 6,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "a multimodal recognition results. 3.3. Instrument Validation and Analysis This study’s methodology was quantitative. A questionnaire was initially developed to elicit student perceptions and test hypotheses. Perceptions and hypotheses were developed in accordance with DeVellis and Thorpe’s guidelines [61]. The proposed method generated a list of components to evaluate, deﬁned the items within each element,",
+          "score": 0.4947129487991333
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P07_pg015_ch004",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 136,
+          "end_word": 169,
+          "text": "Contributions: Conceptualization, P.N. and M.R.; methodology, S.W.-I. and P.N.; software evaluation and modeling, S.W.-I.; validation, P.N., M.R., and S.W.-I.; formal analysis, P.N. and M.R.; investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.;",
+          "score": 0.5168647766113281
+        },
+        {
+          "chunk_id": "P07_pg015_ch005",
+          "paper_id": "P07",
+          "page_number": 15,
+          "start_word": 160,
+          "end_word": 193,
+          "text": "investigation, S.W.-I.; resources, S.W.-I.; data curation, P.N., M.R., and S.W.-I.; writing—original draft preparation, M.R. and S.W.-I.; writing—review and editing, P.N. and M.R.; visualization, P.N., M.R., and S.W.-I.; supervision, P.N. and M.R.; project administration, P.N.,",
+          "score": 0.5088297128677368
+        },
+        {
+          "chunk_id": "P07_pg018_ch001",
+          "paper_id": "P07",
+          "page_number": 18,
+          "start_word": 1,
+          "end_word": 54,
+          "text": "Sustainability 2023, 15, 3092 18 of 18 75. Hair, J.F.; Hult, T.G.; Ringle, C.M.; Sarstedt, M. A Primer on Partial Least Squares Structural Equation Modeling (PLS-SEM); Sage Publications: Washington, DC, USA, 2014. 76. Sidharta, I.; Priadana, S.; Affandi, A. Extending end-user computing satisfaction on academic information systems. Indian J. Sci. Technol. 2016, 9, 1–5.",
+          "score": 0.42348575592041016
+        }
+      ]
+    }
+  },
+  "P08": {
+    "research_objective": {
+      "question": "What is the main objective and research problem of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.4638829231262207
+        },
+        {
+          "chunk_id": "P08_pg017_ch002",
+          "paper_id": "P08",
+          "page_number": 17,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "by a case study at FPT Polytechnic. We showed the result of the real system and the feasibility of attendance taking support system in a university environment. In the experiment, the system worked with 120 students in ﬁve classes. We found out that it is impossible to achieve state-of-the-art accuracy of FR in the real",
+          "score": 0.45864275097846985
+        },
+        {
+          "chunk_id": "P08_pg003_ch005",
+          "paper_id": "P08",
+          "page_number": 3,
+          "start_word": 181,
+          "end_word": 235,
+          "text": "However, when we carried out our investigation, we faced some problems: (1) Required almost 100% accuracy: attendance usually aﬀects students directly. Many schools also require attendance as part of the assessment process. See an example of the course syllabus for EBIO 6300 of the University of Colorado in semester fall-2013 [19]. At FPT polytechnic, the",
+          "score": 0.4556541442871094
+        }
+      ]
+    },
+    "methodology": {
+      "question": "What research methodology, algorithms, models, and technologies were used?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg018_ch004",
+          "paper_id": "P08",
+          "page_number": 18,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "with actual data. 3D based on FR is one of the directions our research would continue in the future, besides the performance improvement. Author Contributions: N.T.S.: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Resources, Software; Visualization; Writing—original draft; Writing—review & editing; B.N.A.: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Resources, Software, Supervision; T.Q.B.: Data curation;",
+          "score": 0.5408338308334351
+        },
+        {
+          "chunk_id": "P08_pg018_ch005",
+          "paper_id": "P08",
+          "page_number": 18,
+          "start_word": 181,
+          "end_word": 216,
+          "text": "Formal analysis, Investigation, Methodology, Resources, Software, Supervision; T.Q.B.: Data curation; Investigation; Methodology L.P.C.; Data curation; Investigation; Project administration; B.D.C.: Conceptualization; Funding acquisition; Methodology D.X.H.: Software, Visualization; L.V.T.: Software, Visualization; T.Q.H.: Software; L.D.D.: Software; M.H.R.K.: Formal analysis;",
+          "score": 0.5134285092353821
+        },
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.47834521532058716
+        }
+      ]
+    },
+    "dataset": {
+      "question": "What dataset, data sources, participants, or samples were used?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg010_ch006",
+          "paper_id": "P08",
+          "page_number": 10,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "models to build the system. Therefore, in order to carry out the evaluation of appropriate models, we use the facial data of 120 students as the training data (as described in Sections 2.2 and 3.1, there are nine facial images for each student). Test data were recorded in two sessions, with 7490 labeled images in",
+          "score": 0.4856559634208679
+        },
+        {
+          "chunk_id": "P08_pg007_ch003",
+          "paper_id": "P08",
+          "page_number": 7,
+          "start_word": 91,
+          "end_word": 145,
+          "text": "lies around the modules that are the most eﬀective, including data sampling, batch processing, the deﬁning region of interest (ROI), frame processing, and summarization algorithm. 2.3.1. Data Sampling We do not take all retrieved frames from uploaded videos by the data collector application to build a training dataset. Instead of doing so, on each video,",
+          "score": 0.4764115810394287
+        },
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.4471896290779114
+        }
+      ]
+    },
+    "evaluation_metrics": {
+      "question": "What evaluation metrics and experimental procedures were used?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.626776933670044
+        },
+        {
+          "chunk_id": "P08_pg017_ch002",
+          "paper_id": "P08",
+          "page_number": 17,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "by a case study at FPT Polytechnic. We showed the result of the real system and the feasibility of attendance taking support system in a university environment. In the experiment, the system worked with 120 students in ﬁve classes. We found out that it is impossible to achieve state-of-the-art accuracy of FR in the real",
+          "score": 0.5155938267707825
+        },
+        {
+          "chunk_id": "P08_pg003_ch005",
+          "paper_id": "P08",
+          "page_number": 3,
+          "start_word": 181,
+          "end_word": 235,
+          "text": "However, when we carried out our investigation, we faced some problems: (1) Required almost 100% accuracy: attendance usually aﬀects students directly. Many schools also require attendance as part of the assessment process. See an example of the course syllabus for EBIO 6300 of the University of Colorado in semester fall-2013 [19]. At FPT polytechnic, the",
+          "score": 0.49207907915115356
+        }
+      ]
+    },
+    "key_findings": {
+      "question": "What are the main results, findings, and contributions of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.45069676637649536
+        },
+        {
+          "chunk_id": "P08_pg010_ch006",
+          "paper_id": "P08",
+          "page_number": 10,
+          "start_word": 226,
+          "end_word": 280,
+          "text": "models to build the system. Therefore, in order to carry out the evaluation of appropriate models, we use the facial data of 120 students as the training data (as described in Sections 2.2 and 3.1, there are nine facial images for each student). Test data were recorded in two sessions, with 7490 labeled images in",
+          "score": 0.4161149263381958
+        },
+        {
+          "chunk_id": "P08_pg017_ch002",
+          "paper_id": "P08",
+          "page_number": 17,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "by a case study at FPT Polytechnic. We showed the result of the real system and the feasibility of attendance taking support system in a university environment. In the experiment, the system worked with 120 students in ﬁve classes. We found out that it is impossible to achieve state-of-the-art accuracy of FR in the real",
+          "score": 0.41365861892700195
+        }
+      ]
+    },
+    "limitations": {
+      "question": "What are the limitations, challenges, and weaknesses of this study?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg004_ch002",
+          "paper_id": "P08",
+          "page_number": 4,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "In this paper, we describe the way to provide experiments, combine techniques, and to prepare some environment settings to tune our attendance taking system. Performance indicators, along with business requirements, are considered to indicate detailed recommendations on investment costs as well as the beneﬁts for a particular system scale. Our system provides a guide that",
+          "score": 0.5049914717674255
+        },
+        {
+          "chunk_id": "P08_pg017_ch002",
+          "paper_id": "P08",
+          "page_number": 17,
+          "start_word": 46,
+          "end_word": 100,
+          "text": "by a case study at FPT Polytechnic. We showed the result of the real system and the feasibility of attendance taking support system in a university environment. In the experiment, the system worked with 120 students in ﬁve classes. We found out that it is impossible to achieve state-of-the-art accuracy of FR in the real",
+          "score": 0.4778774380683899
+        },
+        {
+          "chunk_id": "P08_pg003_ch005",
+          "paper_id": "P08",
+          "page_number": 3,
+          "start_word": 181,
+          "end_word": 235,
+          "text": "However, when we carried out our investigation, we faced some problems: (1) Required almost 100% accuracy: attendance usually aﬀects students directly. Many schools also require attendance as part of the assessment process. See an example of the course syllabus for EBIO 6300 of the University of Colorado in semester fall-2013 [19]. At FPT polytechnic, the",
+          "score": 0.47195950150489807
+        }
+      ]
+    },
+    "future_research": {
+      "question": "What future work, research recommendations, or unresolved problems are discussed?",
+      "evidence": [
+        {
+          "chunk_id": "P08_pg018_ch004",
+          "paper_id": "P08",
+          "page_number": 18,
+          "start_word": 136,
+          "end_word": 190,
+          "text": "with actual data. 3D based on FR is one of the directions our research would continue in the future, besides the performance improvement. Author Contributions: N.T.S.: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Resources, Software; Visualization; Writing—original draft; Writing—review & editing; B.N.A.: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Resources, Software, Supervision; T.Q.B.: Data curation;",
+          "score": 0.47359800338745117
+        },
+        {
+          "chunk_id": "P08_pg018_ch005",
+          "paper_id": "P08",
+          "page_number": 18,
+          "start_word": 181,
+          "end_word": 216,
+          "text": "Formal analysis, Investigation, Methodology, Resources, Software, Supervision; T.Q.B.: Data curation; Investigation; Methodology L.P.C.; Data curation; Investigation; Project administration; B.D.C.: Conceptualization; Funding acquisition; Methodology D.X.H.: Software, Visualization; L.V.T.: Software, Visualization; T.Q.H.: Software; L.D.D.: Software; M.H.R.K.: Formal analysis;",
+          "score": 0.4051068127155304
+        },
+        {
+          "chunk_id": "P08_pg018_ch006",
+          "paper_id": "P08",
+          "page_number": 18,
+          "start_word": 207,
+          "end_word": 260,
+          "text": "L.V.T.: Software, Visualization; T.Q.H.: Software; L.D.D.: Software; M.H.R.K.: Formal analysis; Validation. All authors have read and agreed to the published version of the manuscript. Funding: This research received no external funding. Conﬂicts of Interest: The authors declare no conﬂict of interest. References 1. Minaee, S.; Abdolrashidi, A.; Su, H.; Bennamoun, M.; Zhang, D. Biometric",
+          "score": 0.3946487605571747
+        }
+      ]
+    }
+  }
+}
